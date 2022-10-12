@@ -7,11 +7,11 @@ const helpers = require("./utils/helpers");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const exphbs = require("express-Handlebars");
+const exphbs = require('express-Handlebars');
 const hbs = exphbs.create({ helpers });
 
 app.engine("handlebars", hbs.engine);
