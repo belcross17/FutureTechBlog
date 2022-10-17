@@ -2,15 +2,18 @@
 
 {{#if loggedIn}}
 <form class="comment-form">
-    <div>
-        <input name="comment-body">
-    </div>
+  <div>
+    <input name="comment-body"></input>
+  </div>
 
-    <div>
-        <button type="submit">Add Comment</button>
-    </div>
+  <div>
+    <button type="submit">Add Comment</button>
+  </div>
 </form>
 {{/if}}
 
+{{> comments post.comments}}
+
 {{#if loggedIn}}
-<script src="/public/js/comment.js"
+<script src="/public/js/comment.js"></script>
+{{/if}}
