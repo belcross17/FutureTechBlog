@@ -3,7 +3,7 @@
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
-    <input name="comment-body"></input>
+    <textarea name="comment-body"></textarea>
   </div>
 
   <div>
@@ -15,5 +15,5 @@
 {{> comments post.comments}}
 
 {{#if loggedIn}}
-<script src="/public/js/comment.js"></script>
+<script src="/js/comment.js"></script>
 {{/if}}
