@@ -7,6 +7,10 @@
 
   This project shows how to create an app for a blog website, utilizing handlebars for the front end and express and some other for the backend function of the app. we can see how multiple users can be created and store in the databases and allow each to create their own post and at the same time interact with someone elses post by leaving a comment with their username.
 
+  ## Link
+
+  https://futuretechblog.herokuapp.com/
+
   ## Screenshots
 
   ![screenshot](./assets/images/Screenshot%20(14).png)
@@ -17,6 +21,7 @@
   ## Table of Contents
 
   - [Description](#Description)
+  - [Link](#Link)
   - [Screenshots](#Screenshots)
   - [Installation](#Installation)
   - [Usage](#Usage)
